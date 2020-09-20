@@ -53,6 +53,6 @@ client.once('ready', () => {
     url: 'https://github.com/galnir/Master-Bot'
   });
 });
-
+client.login(process.env.token)
 
 client.login(token);
